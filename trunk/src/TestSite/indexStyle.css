@@ -8,11 +8,12 @@ body {
 	background:url('images/backgroundGrey.jpg') center fixed no-repeat; 
 	font-family: fav_font, Arial, Verdana, sans-serif;
 	color: rgb(0, 0, 0);
-	padding: 0.3em;
+	padding: 0.4em;
 	letter-spacing: 0.10em;
 	max-width: 70em;
 	margin: 0px auto;
 }
+
 h1 {
 	font-size: 1.2em;
 	color: rgb(255, 255, 255);
@@ -40,7 +41,7 @@ a {
 	color: #000000;
 	text-transform: uppercase;
 	text-decoration: none;
-	padding: 6px 18px 3px 18px;
+	padding: 6px 18px 0px 18px;
 }
 a:hover {
 	color: #243284; 
