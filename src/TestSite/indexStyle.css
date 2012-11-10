@@ -3,20 +3,23 @@
 		src: url('Quicksand_Book.otf');
 	}
 
-body{
-	text-align: center;
+body {
+	text-align: left;
 	background:url('images/backgroundGrey.jpg') center fixed no-repeat; 
 	font-family: fav_font, Arial, Verdana, sans-serif;
-	color: rgb(129, 4, 4);
+	color: rgb(0, 0, 0);
 	padding: 0.3em;
 	letter-spacing: 0.10em;
 	max-width: 70em;
 	margin: 0px auto;
-	}
-#mainBody {}
+}
 
+#mainBody {}
+#welcome {
+}
 .content {
-	background-color: rgba(0, 0, 0, .1);	
+	background-color: rbga(0, 0, 0, 0.5);
+	/* background: url('images/watermark.png') no-repeat center; */	
 	margin: 1em 2% 2em 2%;
 	min-width: 30em;
 	border-radius: 2em;
@@ -24,13 +27,16 @@ body{
 ul {
 	padding: .5 em;
 	margin: 0em auto .888em auto;
-	}
-li { display: inline;
 }
-a{  color: #000000;
+li { 
+	display: inline;
+}
+a {  
+	color: #000000;
 	text-transform: uppercase;
 	text-decoration: none;
-	padding: 6px 18px 5px 18px;}
+	padding: 6px 18px 5px 18px;
+}
 a:hover {color: #243284; 
 
 		border-bottom:1px solid #CC0000}
