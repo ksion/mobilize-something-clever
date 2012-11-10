@@ -5,7 +5,7 @@
 
 body{
 	text-align: center;
-	background:url('http://img571.imageshack.us/img571/6758/interesting759179.jpg') center fixed no-repeat; 
+	background:url('images/backgroundGrey.jpg') center fixed no-repeat; 
 	font-family: fav_font, Arial, Verdana, sans-serif;
 	color: rgb(129, 4, 4);
 	padding: 0.3em;
@@ -14,6 +14,7 @@ body{
 	margin: 0px auto;
 	}
 #mainBody {}
+
 .content {
 	background-color: rgba(0, 0, 0, .1);	
 	margin: 1em 2% 2em 2%;
@@ -24,7 +25,8 @@ ul {
 	padding: .5 em;
 	margin: 0em auto .888em auto;
 	}
-li { display: inline;}
+li { display: inline;
+}
 a{  color: #000000;
 	text-transform: uppercase;
 	text-decoration: none;
