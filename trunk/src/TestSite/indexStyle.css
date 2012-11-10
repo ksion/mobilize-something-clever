@@ -1,0 +1,40 @@
+body{
+	text-align: center;
+	font-family: Arial, Verdana, sans-serif;
+	color: #665544;
+	padding: 0.3em;
+	letter-spacing: 0.15em;
+	max-width: 70em;
+	margin: 0px auto;
+	}
+#mainBody {}
+.content {
+	border: 5px double #000000;
+	background-color: #efefef;	
+	margin: 1em 2% 2em 2%;
+	min-width: 30em;
+	border-radius: 2em;
+	font-size: 0.875em;}
+ul {
+	padding: .5 em;
+	margin: 0em auto .888em auto;
+	}
+li { display: inline;}
+a{  color: #000000;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 6px 18px 5px 18px;}
+a:hover {color: blue; 
+		background-color: lightgray; visibility: visible;}
+p { line-height: 1.4em;}
+#content, h3 {
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 0.15em;}
+ #Cox { float: left; padding: 1.2em; width: 200px;}
+#welcome {
+	margin: 1% auto 2.5% auto;
+	max-width: 25.06em;
+	max-height: 20.13em; }
+#column1 #column2{
+	fixed: 20px;}
