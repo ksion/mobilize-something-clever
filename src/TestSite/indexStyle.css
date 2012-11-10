@@ -42,7 +42,7 @@ li {
 	display: inline;
 }
 
-/* nav ul ul {
+nav ul ul {
 	display: none;
 }
 
@@ -65,7 +65,19 @@ nav ul li {
 
 nav ul li a {
 	display: block;
-} */
+}
+
+#more {
+	display: block;
+}
+
+ul display:block {
+	
+}
+
+name {
+	margin-left: 1.5em;
+}
 
 a {  
 	color: #000000;
@@ -92,6 +104,7 @@ p {
 	font-weight: bold;
 	letter-spacing: 0.15em;
 }
+
 
 #welcome {
 	margin: 1% auto 2.5% auto;
