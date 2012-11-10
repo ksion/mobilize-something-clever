@@ -34,6 +34,13 @@ ul {
 	padding: .5 em;
 	margin: 0em auto .888em auto;
 }
+
+nav ul ul {
+	display: none;
+	nav ul li: hover > ul {
+		display: block;
+	}
+}
 li { 
 	display: inline;
 }
