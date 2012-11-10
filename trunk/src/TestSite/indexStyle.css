@@ -20,49 +20,85 @@ h1 {
 	letter-spacing: 0.07em;
 	font-weight: normal;
 	background-color: #212A69;
+	padding: .3em;
 }
 
 
 .content {
 	background-color: rbga(0, 0, 0, 0.5);
-	/* background: url('images/watermark.png') no-repeat center; */	
 	margin: 1em 2% 2em 2%;
 	min-width: 30em;
 	border-radius: 2em;
-	font-size: 0.875em;}
-ul {
-	padding: .5 em;
-	margin: 0em auto .888em auto;
+	font-size: 0.875em;
 }
 
-nav ul ul {
-	display: none;
-	nav ul li: hover > ul {
-		display: block;
-	}
+ul {
+	text-align: left;
+	padding: 0em;
+	margin: auto auto auto auto;
 }
+
 li { 
 	display: inline;
 }
+
+/* nav ul ul {
+	display: none;
+}
+
+nav ul li: hover > ul {
+	display: block;
+}
+
+nav ul {
+	list-style: none;
+	display: inline-table;
+}
+
+nav ul: after {
+	content: ""; clear: both; display: block;
+}
+
+nav ul li {
+	float: left;
+}
+
+nav ul li a {
+	display: block;
+} */
+
 a {  
 	color: #000000;
 	text-transform: uppercase;
 	text-decoration: none;
 	padding: 6px 18px 0px 18px;
 }
+
 a:hover {
 	color: #243284; 
 	border-bottom:1px solid #CC0000
 }
-p { line-height: 1.4em;}
+
+p { 
+	line-height: 1.4em;
+}
+
+#footer {
+	font-size: .5 em;
+}
+
 #content, h3 {
 	text-transform: uppercase;
 	font-weight: bold;
-	letter-spacing: 0.15em;}
- #Cox { float: left; padding: 1.2em; width: 200px;}
+	letter-spacing: 0.15em;
+}
+
 #welcome {
 	margin: 1% auto 2.5% auto;
 	max-width: 25.06em;
-	max-height: 20.13em; }
+	max-height: 20.13em; 
+}
+
 #column1 #column2{
-	fixed: 20px;}
+	fixed: 20px;
+}
