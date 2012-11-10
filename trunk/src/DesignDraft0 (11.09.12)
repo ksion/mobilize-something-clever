@@ -1,0 +1,39 @@
+As a user, I want to :
+	- RSVP for concerts
+	- View upcoming concerts
+	- learn more about AMP
+		~ become a teacher artist
+		~ sign my kid up for program
+	
+
+Potential Tabs for Entire Screen... (4 total)
+- Home (for returning)
+- Concerts & Events (has
+						- Calendar/Schedule of Events
+						- contains a click through for
+							RSVP capability
+					)
+- ? (not sure what this tab should contain)
+- More...(has 
+			- Donate
+			- Contact
+			- Get Involved (has 
+								- Become a Leader
+								- Sign my Kids Up
+							)
+			- About Us (has
+							- Mission Statement
+							- Teacher Artist Bio
+						)
+		)
+		
+RSVP Form...
+- should contain...
+	Name: (First, Last)
+	Phone: (Area Code, Number)
+	Number of Guest: (potentially a spinner, and a label
+							for available seats or max capacity)
+	Email Address: (valid email address)
+- probably email Dante or Aisha everytime the submit button is
+pressed, then we could prevent the use of a database...just send
+them as they come...
