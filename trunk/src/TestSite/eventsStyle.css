@@ -1,0 +1,171 @@
+@font-face {
+		font-family: fav_font;
+		src: url('Quicksand_Book.otf');
+	}
+
+body {
+	text-align: left;
+	background:url('images/backgroundGrey.jpg') center fixed no-repeat; 
+	font-family: fav_font, Arial, Verdana, sans-serif;
+	color: rgb(0, 0, 0);
+	padding: 0.4em;
+	letter-spacing: 0.10em;
+	max-width: 30em;
+	margin: auto;
+}
+
+h1 {
+	font-size: 1.2em;
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	letter-spacing: 0.07em;
+	font-weight: normal;
+	background-color: #212A69;
+	padding: .2em;
+	margin: .3em, .1em, .1em, .1em;
+}
+
+table {
+	max-width: 100%;
+	border-spacing: .5em;
+	align: left;
+	position: relative;
+	z-index:1;
+}
+
+table tr.events {
+	font-weight: normal;
+	background-color: rgb(204, 0, 0);
+	font-color: white;
+	font-size: 100%;
+	width: 100%;
+	padding: 0.2em;
+	max-width:100%;
+}
+
+table tr.events th {
+	font-color: white;
+}
+
+th {
+	font-weight: normal;
+	color: white;
+}
+
+/* th {
+	font-weight: normal;
+	background-color: white;
+	font-size: 100%;
+	width: 100%;
+	padding: 0.2em;
+	border-left: solid black .1em;
+	border-right: solid black .1em;
+} */
+
+
+p { 
+	line-height: 1.3em;
+	letter-spacing: 0.02em;
+	margin: 0em;
+}
+
+#welcome {
+	max-width: 100%;
+	margin:0em 0em .5em 0em;
+}
+
+.content {
+	background-color: rbga(0, 0, 0, 0.5);
+	min-width: 22em;
+	border-radius: 2em;
+	font-size: 1em;
+	text-align: left;
+}
+
+li { 
+	display: inline;
+	z-index:2;
+}
+
+ul li{
+	float: left;
+	position: relative;
+	left: 0em; 
+	background:#CC0000;
+}
+
+nav ul ul {
+	display: none;
+}
+
+ul {
+	margin: 0em 0em 0em;
+	padding:0em;
+}
+
+ul li a {
+     text-align: left;
+     border-right:.3em solid #e9e9e9;
+     margin: auto;
+     padding:.3em;
+     display:block;
+     text-decoration:none;
+     color:#FFF;
+}
+ul li ul {
+     display: none;
+}
+
+ul li:hover ul {
+     display: block;
+     position: absolute;
+}
+
+ul li:hover ul li a {
+     display:block;
+     background:#CC0000;
+     color:#ffffff;
+     width: 110px;
+     border-bottom: 1px solid #f2f2f2;
+     border-right: none;
+}
+
+ul li:hover ul li a:hover {
+     background:#243284;
+     color:#fff;
+}
+#nav {
+	 min-width: 22em;	
+     border-right:1px solid #e9e9e9;
+     text-decoration:none;
+     color:#FFF;
+	 text-align:left;
+	 z-index:2;
+}
+
+nav ul li a {
+	display: block;
+}
+
+#more {
+	display: block;
+}
+
+ul display:block {
+	text-align:left;
+}
+
+name {
+	margin-left: 1.5em;
+}
+
+a {  
+	color: #FFF;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+a:hover {
+	 background:#243284;
+     color: #FFF; 
+}
