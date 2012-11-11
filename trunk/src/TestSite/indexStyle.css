@@ -45,6 +45,29 @@ p {
 	text-align: left;
 }
 
+.artist {
+	font-size: .7em;
+}
+.content img {
+	align: middle;
+	float: left;
+	padding: .1em;
+	background: rgb(204, 0, 0); 
+	margin-right: .3em;
+	margin-bottom: .3em;/* 
+	margin-left: .3em; */
+}
+
+.content a {
+	text-transform: lowercase;
+	color: black;
+}
+
+.content a:hover {
+	background: none;
+	color: rgb(204, 0, 0);
+}
+
 li {
 	display: inline;
 }
