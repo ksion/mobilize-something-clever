@@ -15,7 +15,6 @@ body {
 }
 
 h1 {
-	
 	font-size: 1.2em;
 	color: rgb(255, 255, 255);
 	letter-spacing: 0.07em;
@@ -25,7 +24,6 @@ h1 {
 	margin: .1em;
 }
 
-
 .content {
 	background-color: rbga(0, 0, 0, 0.5);
 	min-width: 22em;
@@ -34,22 +32,14 @@ h1 {
 	text-align: left;
 }
 
-/*nav ul {
-	text-align: left;
-	padding: 0em;
-	margin: auto auto auto auto;
-	list-style-type: none;
-	
-}
-*/
-
 li { 
 	display: inline;
 }
 
 ul li{
 	float: left;
-	position: relative;
+	/* position: absolute;*/
+	left: .2em; 
 	background:#CC0000;
 	}
 
@@ -127,6 +117,7 @@ a:hover {
 
 p { 
 	line-height: 1.4em;
+	letter-spacing: 0.02em;
 }
 
 #content, h3 {
