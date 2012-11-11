@@ -52,8 +52,8 @@ textarea {
 }
 
 a:hover {
-	color: #243284; 
-	border-bottom:1px solid #CC0000
+	background:#243284;
+    color: #FFF; 
 }
 
 #footer {
