@@ -1,0 +1,66 @@
+@font-face {
+		font-family: fav_font;
+		src: url('Quicksand_Book.otf');
+	}
+
+body {
+	text-align: left;
+	background:url('images/backgroundGrey.jpg') center fixed no-repeat;
+	
+	font-family: fav_font, Arial, Verdana, sans-serif;
+	color: rgb(0, 0, 0);
+	padding: 0.4em;
+	letter-spacing: 0.10em;
+	max-width: 70em;
+	margin: 0px auto;
+}
+
+.form {
+	min-width: 30em;
+	align: right;
+}
+
+.form form {
+	float: right;
+	margin-left: 2em;
+}
+
+h1 {
+	font-size: 1.2em;
+	color: rgb(255, 255, 255);
+	letter-spacing: 0.07em;
+	font-weight: normal;
+	background-color: #212A69;
+	padding: .3em;
+	display: inline;
+}
+
+a {  
+	color: #000000;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 6px 18px 0px 18px;
+	
+}
+
+textarea {
+	padding: .2em;
+	rows: "10"
+	cols: 10em;
+	align: bottom;
+}
+
+a:hover {
+	color: #243284; 
+	border-bottom:1px solid #CC0000
+}
+
+#footer {
+	font-size: .5 em;
+}
+
+#welcome {
+	margin: 1% auto 2.5% auto;
+	max-width: 25.06em;
+	max-height: 20.13em; 
+}
