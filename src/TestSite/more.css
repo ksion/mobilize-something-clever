@@ -1,0 +1,52 @@
+@font-face {
+	font-family: fav_font;
+	src: url('Quicksand_Book.otf');
+}
+
+body {
+	text-align: left;
+	background: url('images/backgroundGrey.jpg') center fixed no-repeat;
+	font-family: fav_font, Arial, Verdana, sans-serif;
+	color: rgb(0, 0, 0);
+	padding: 0.4em;
+	letter-spacing: 0.10em;
+	max-width: 30em;
+	margin: auto;
+}
+
+h1 {
+	font-size: 1.2em;
+	color: rgb(255, 255, 255);
+	text-transform: uppercase; letter-spacing : 0.07em;
+	font-weight: normal;
+	background-color: #212A69;
+	padding: .2em;
+	margin: .3em, .1em, .1em, .1em;
+	letter-spacing: 0.07em;
+	width: 100%;
+}
+
+ul {
+	float:left;
+	margin: 0em 0em 0em;
+	padding: 0em;
+	left:0em;
+}
+
+a:hover{
+	color: rgb(204, 0, 0);
+}
+
+a {
+	
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+ul li {
+	
+	text-align:left;
+	margin: auto;
+	padding:.3em;
+	display: block;
+}
