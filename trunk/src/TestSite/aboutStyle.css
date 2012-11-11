@@ -31,11 +31,6 @@ p {
 	margin: 0em;
 }
 
-#welcome {
-	max-width: 25.46em;
-	margin:0em 0em .5em 0em;
-}
-
 .content {
 	background-color: rbga(0, 0, 0, 0.5);
 	min-width: 22em;
@@ -44,14 +39,25 @@ p {
 	text-align: left;
 }
 
+#welcome {
+	max-width: 25.46em;
+	margin:0em 0em .5em 0em;
+}
+
+img {
+	display: inline-block;
+}
+
+/* Toolbar stuffs */
+
 li { 
 	display: inline;
 }
 
 ul li{
-	float: left;
+	float: left;/* 
 	position: relative;
-	left: 0em; 
+	left: 0em;  */
 	background:#CC0000;
 }
 
@@ -95,6 +101,7 @@ ul li:hover ul li a:hover {
      background:#243284;
      color:#fff;
 }
+
 #nav {
 	 min-width: 22em;	
      border-right:1px solid #e9e9e9;
