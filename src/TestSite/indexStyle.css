@@ -1,11 +1,11 @@
 @font-face {
-		font-family: fav_font;
-		src: url('Quicksand_Book.otf');
-	}
+	font-family: fav_font;
+	src: url('Quicksand_Book.otf');
+}
 
 body {
 	text-align: left;
-	background:url('images/backgroundGrey.jpg') center fixed no-repeat; 
+	background: url('images/backgroundGrey.jpg') center fixed no-repeat;
 	font-family: fav_font, Arial, Verdana, sans-serif;
 	color: rgb(0, 0, 0);
 	padding: 0.4em;
@@ -17,23 +17,24 @@ body {
 h1 {
 	font-size: 1.2em;
 	color: rgb(255, 255, 255);
-	text-transform: uppercase;
-	letter-spacing: 0.07em;
+	text-transform: uppercase; letter-spacing : 0.07em;
 	font-weight: normal;
 	background-color: #212A69;
 	padding: .2em;
 	margin: .3em, .1em, .1em, .1em;
+	letter-spacing: 0.07em;
+	width: 100%;
 }
 
-p { 
+p {
 	line-height: 1.3em;
 	letter-spacing: 0.02em;
 	margin: 0em;
 }
 
-#welcome {
-	max-width: 25.46em;
-	margin:0em 0em .5em 0em;
+#welcome { /* max-width: 25.46em; */
+	width: 100%;
+	margin: 0em 0em .5em 0em;
 }
 
 .content {
@@ -44,15 +45,15 @@ p {
 	text-align: left;
 }
 
-li { 
+li {
 	display: inline;
 }
 
-ul li{
+ul li {
 	float: left;
 	position: relative;
-	left: 0em; 
-	background:#CC0000;
+	left: 0em;
+	background: #CC0000;
 }
 
 nav ul ul {
@@ -61,46 +62,49 @@ nav ul ul {
 
 ul {
 	margin: 0em 0em 0em;
-	padding:0em;
+	padding: 0em;
 }
 
 ul li a {
-     text-align: left;
-     border-right:.3em solid #e9e9e9;
-     margin: auto;
-     padding:.3em;
-     display:block;
-     text-decoration:none;
-     color:#FFF;
+	text-align: left;
+	border-right: .3em solid #e9e9e9;
+	margin: auto;
+	padding: .3em;
+	display: block;
+	text-decoration: none;
+	color: #FFF;
 }
+
 ul li ul {
-     display: none;
+	display: none;
 }
 
 ul li:hover ul {
-     display: block;
-     position: absolute;
+	display: block;
+	position: absolute;
 }
 
 ul li:hover ul li a {
-     display:block;
-     background:#CC0000;
-     color:#ffffff;
-     width: 110px;
-     border-bottom: 1px solid #f2f2f2;
-     border-right: none;
+	display: block;
+	background: #CC0000;
+	color: #ffffff;
+	width: 110px;
+	border-bottom: 1px solid #f2f2f2;
+	border-right: none;
 }
 
 ul li:hover ul li a:hover {
-     background:#243284;
-     color:#fff;
+	background: #243284;
+	color: #fff;
 }
-#nav {
-	 min-width: 22em;	
-     border-right:1px solid #e9e9e9;
-     text-decoration:none;
-     color:#FFF;
-	 text-align:left;
+
+#nav { /*  min-width: 22em; */
+	width: 100%;
+	border-right: 1px solid #e9e9e9;
+	text-decoration: none;
+	color: #FFF;
+	text-align: left;
+	border-right: 1px solid #e9e9e9;
 }
 
 nav ul li a {
@@ -112,20 +116,20 @@ nav ul li a {
 }
 
 ul display:block {
-	text-align:left;
+	text-align: left;
 }
 
 name {
 	margin-left: 1.5em;
 }
 
-a {  
+a {
 	color: #FFF;
 	text-transform: uppercase;
 	text-decoration: none;
 }
 
 a:hover {
-	 background:#243284;
-     color: #FFF; 
+	background: #243284;
+	color: #FFF;
 }
